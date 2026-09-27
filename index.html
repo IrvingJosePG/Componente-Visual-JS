@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo del Componente</title>
+        <link rel="stylesheet" href="css/componente.css">
+    </head>
+    <body>
+
+        <div class="contenedor-demo">
+            <h1>Preguntas Frecuentes (FAQ)</h1>
+            <div id="seccion"></div> <!--Conentedor donde se inyectara un acordeon-->
+        </div>
+
+        <script src="js/componente.js"></script> <!--Llamada a nuestro archivo JS-->
+
+        <script>
+            // Uso de la librerAa:
+            // crearAcordeon('ID_CONTENEDOR', 'TÍTULO', 'CONTENIDO');
+            crearAcordeon(
+                "seccion", 
+                "¿Qué es este componente?", 
+                "Es un acordeon interactivo creado con JavaScript. Permite organizar texto en espacios pequeños."
+            );
+
+            crearAcordeon(
+                "seccion", 
+                "¿Como reutilizar?", 
+                "Solo tienes que llamar a la función 'crearAcordeon' con el texto que desees y se generara la estructura visual."
+            );
+        </script>
+    </body>
+</html>
