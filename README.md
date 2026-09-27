@@ -1,4 +1,4 @@
-# Componente Visual: Acordeón Dinámico (FAQ)
+# Componente Visual: Acordeón Dinámico
 
 ## 1. Portada
 * **Autor:** Irving Jose Perez Gris
@@ -37,14 +37,14 @@ crearAcordeon(
 ```
 
 ## 4. Capturas de pantalla
-![Componente en estado inicial (Cerrado)](img/acoreon_cerrado.png)
+![Componente en estado inicial (Cerrado)](img/acordeon_cerrado.png)
 
-![Componente interactuando](img/acoreon_abierto.png)
+![Componente interactuando](img/acordeon_abierto.png)
 
 ## 5. Video promocional
 **Enlace al video:** [Video promocional](https://youtu.be/df105nG8-gY)
 
 ## 6. Enlaces del Proyecto
 
-* **Repositorio del código:** 
-* **Proyecto en línea (GitHub Pages):**
+* **Repositorio del código:** https://github.com/IrvingJosePG/Componente-Visual-JS.git
+* **Proyecto en línea (GitHub Pages):** https://irvingjosepg.github.io/Componente-Visual-JS/
